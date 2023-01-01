@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="minimal-ui, width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta property="og:title" content="Birdwatch">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="/Assets/thumbnail.png">
+    <meta property="og:description" content="Join the war, become the richest. Watch or be watched.">
+    <meta property="description" content="Join the war, become the richest. Watch or be watched.">
+    <meta name="theme-color" content="#BF0000">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="author" content="CatR3kd">
+    <meta name="publisher" content="CatR3kd">
+    <meta name="copyright" content="CatR3kd">
+    <meta name="keywords" content="birdwatch, catr3kd, bw, game, mmo, text, adventure, fun, io, bird, penguin, pigeon">
+    <link rel="icon" href="/Assets/favicon.jpg" type="image/jpeg">
+    <title>Birdwatch</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  <body>
+    <button onclick="LoginWithReplit()" id="login">Login with Replit</button>
+    <div id="content">
+      <div id="terminal">
+        <p id="text">
+        </p>
+      </div>
+      <input id="actionInput" type="text" placeholder="Type &quot;help&quot; for info"></input>
+      <div id="sidebar">
+        <div id="leaderboardBox">
+          <h3>Richest players:</h3>
+          <ul id="leaderboard">
+            <li>1: <i>Nobody</i></li>
+            <li>2: <i>Nobody</i></li>
+            <li>3: <i>Nobody</i></li>
+            <li>4: <i>Nobody</i></li>
+            <li>5: <i>Nobody</i></li>
+            <li>6: <i>Nobody</i></li>
+            <li>7: <i>Nobody</i></li>
+            <li>8: <i>Nobody</i></li>
+            <li>9: <i>Nobody</i></li>
+            <li>10: <i>Nobody</i></li>
+          </ul>
+        </div>
+        <div id="chatBox">
+          <ul id="chat">
+            <li><i>Welcome to the chat!</i></li>
+          </ul>
+        </div>
+        <input type="text" id="chatInput"></input>
+      </div>
+    </div>
+    <script src="https://replit.com/public/js/repl-auth-v2.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
