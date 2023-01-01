@@ -4,3 +4,4 @@ A multiplayer text adventure game about evil birds! Leaderboard, chat, locations
 # READ ME RN
 
 I decided to do this one on replit. Go to releases and download open.txt
+Also, The full src is not here, It is on replit.com
