@@ -1,0 +1,24 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "UNLICENSED",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "@types/node": "^18.0.6",
+    "bad-words": "^3.0.4",
+    "bcrypt": "^5.1.0",
+    "better-sqlite3": "^7.6.2",
+    "express": "^4.18.2",
+    "node-fetch": "^3.2.6",
+    "quick.db": "^9.0.6",
+    "rate-limiter-flexible": "^2.4.1",
+    "socket.io": "^4.5.3",
+    "undici": "^5.14.0"
+  }
+}
